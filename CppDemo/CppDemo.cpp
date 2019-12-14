@@ -17,7 +17,7 @@ Student *GetStudent(int id, int age) {
 int main()
 {
 	Student* first = GetStudent(1, 34);
-	Student* second = GetStudent(2, 27);
+	fflush(stdin);
 	printf("First Id = %d Age = %d\n", first->id, first->age);
     std::cout << "Hello World!\n"; 
 }
