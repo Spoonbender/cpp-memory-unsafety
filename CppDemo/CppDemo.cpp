@@ -17,6 +17,7 @@ Student* GetStudent(int id, int age) {
 int main()
 {
 	Student *student = GetStudent(1, 34);
+	Student *candidate = student;
 	delete student;
-	printf("Id = %d Age = %d\n", student->id, student->age);
+	printf("Id = %d Age = %d\n", candidate->id, candidate->age);
 }
